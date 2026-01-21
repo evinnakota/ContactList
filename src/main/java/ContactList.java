@@ -66,6 +66,7 @@ public class ContactList {
         return search(p,2);
     }
 
+
     public void listStudents() {
         for (Person p : contacts) {
             if (p instanceof Student) System.out.println(p);
