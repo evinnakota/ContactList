@@ -16,7 +16,7 @@ public class ContactList {
     }
 
     public void printContacts() {
-        for (Person p : contacts) {
+        for (Person p : getContacts()) {
             System.out.println(p);
         }
     }
@@ -80,6 +80,7 @@ public class ContactList {
             System.out.println("Menu: ");
             System.out.println("1. Add Contact");
             System.out.println("2. List All Contacts By First Name");
+            System.out.println("3. List All Contacts By Last Name");
             System.out.println("4. List All Contacts By Phone Number");
             System.out.println("5. List All Students");
             System.out.println("6. Search By First Name");
